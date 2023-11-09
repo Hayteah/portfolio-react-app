@@ -116,7 +116,7 @@ const NavBar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
-              href="https://drive.google.com/file/d/1is3ouIUVsFcWlCsowib55mx6nLWAtBMI/view?usp=sharing"
+              href="https://drive.google.com/file/d/19-js6eUA_Grw4DhUXDXKbOJryNbOmL7f/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
