@@ -9,7 +9,7 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+    <div className="fixed w-full h-20 flex justify-between items-center px-4 bg-black text-gray-300">
       <div>
         <img src={Logo} alt="" style={{ width: "170px" }} />
       </div>
@@ -116,7 +116,7 @@ const NavBar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               target="_blank"
-              href="https://drive.google.com/file/d/1BEPG4Z75n9zv6UdhsO_xbXBq_4jiS7E4/view?usp=drive_link"
+              href="https://drive.google.com/file/d/15tEQagMW9Jx44dNNLiAWzHBuo1TAF89x/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

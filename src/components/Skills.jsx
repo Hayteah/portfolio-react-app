@@ -4,16 +4,16 @@ import reactImg from '../assets/react.png'
 import nodeJSImg from '../assets/nodejs.png'
 import HTMLImg from "../assets/html5.png";
 import expressJS from '../assets/express-js.png'
-import Css3 from '../assets/css3.png'
-import git from '../assets/icons8-git-48.png'
 import javaScript from '../assets/js.png'
+import nextJs from '../assets/nextjs_logo.png'
+import Tailwind from '../assets/tailwind.png'
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div name="skills" className="w-full h-screen bg-black text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-red-800">
+          <p className="text-4xl font-bold inline border-b-4 border-blue-800">
             Skills
           </p>
           <p className="py-4">These are my Tech Stacks</p>
@@ -23,6 +23,10 @@ const Skills = () => {
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={reactImg} alt="reactJS icon" />
             <p className="my-4">REACT JS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={nextJs} alt="GIT icon" />
+            <p className="my-4">Next JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={nodeJSImg} alt="nodeJs icon" />
@@ -38,20 +42,17 @@ const Skills = () => {
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={javaScript} alt="JS icon" />
-            <p className="my-4">JAVASCRIPT</p>
+            <p className="my-4">JAVASCRIPT(ES6)</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Css3} alt="CSS3 icon" />
-            <p className="my-4">CSS 3</p>
+            <img className="w-20 mx-auto" src={Tailwind} alt="CSS3 icon" />
+            <p className="my-4">Tailwind CSS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={HTMLImg} alt="HTML5 icon" />
             <p className="my-4">HTML5</p>
           </div>
-          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={git} alt="GIT icon" />
-            <p className="my-4">GIT</p>
-          </div>
+          
         </div>
       </div>
     </div>
